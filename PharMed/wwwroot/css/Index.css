@@ -1,0 +1,280 @@
+/*
+    1. Posicionamientos
+    2. Modelo de caja (box model)
+    3. Tipografias
+    4. Visuales
+    5. Otros
+*/
+
+:root {
+    --just-black: #000000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Alegreya SC', serif;
+}
+
+body {
+    background: linear-gradient(116.82deg, #5386ea 0%, rgb(153 185 250 / 87%) 48.03%, rgb(34 71 145 / 73%) 100%);
+    background-repeat: no-repeat;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 300px;
+    text-align: center;
+}
+
+    header img {
+        width: 150px;
+        height: 110px;
+        margin-top: 60px;
+        align-self: center;
+    }
+
+.header-title-container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 50px;
+}
+
+.header-title-container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 1920px;
+    height: 218px;
+    margin-top: 30px;
+    text-align: center;
+    align-self: center;
+}
+
+    .header-title-container h1 {
+        font-size: 6.0rem;
+        font-weight: bold;
+        line-height: 0rem;
+        color: var(--just-black);
+    }
+
+.main-content {
+    width: 100%;
+    min-width: 288px;
+    max-width: 1920px;
+    min-height: 218px;
+    max-height: 1080px;
+    margin-top: 0px;
+    text-align: center;
+    align-self: center;
+}
+
+    .main-content .text {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+
+        .main-content .text h2 {
+            font-size: 4.0rem;
+            font-weight: bold;
+            line-height: 100%;
+            margin-top: 2px;
+            color: var(--just-black);
+            text-align: center;
+        }
+
+        .main-content .text h3 {
+            font-size: 3.0rem;
+            font-weight: normal;
+            line-height: 100%;
+            margin-top: 30px;
+            color: var(--just-black);
+            text-align: center;
+        }
+
+
+        .main-content .text .button-reg {
+            position: relative;
+            display: block;
+            margin-top: 5px;
+            padding: 10px;
+            width: 247px;
+            height: 53.35px;
+            background: rgb(59 108 211);
+            box-shadow: inset 10px 10px 7px rgb(23 44 91 / 51%);
+            border: none;
+            border-radius: 20px;
+            font-size: 2.7rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            left: calc(50% - 118px);
+            line-height: 37px;
+        }
+
+        .main-content .text .button-regt {
+            position: relative;
+            display: block;
+            text-align: center;
+            padding: 10px;
+            width: 247px;
+            height: 53.35px;
+            background: rgb(59 108 211);
+            box-shadow: inset 10px 10px 7px rgb(23 44 91 / 51%);
+            border: none;
+            border-radius: 20px;
+            font-size: 2.7rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            left: calc(50% - 150px);
+            line-height: 37px;
+        }
+
+        .main-content .text .button-ini {
+            position: relative;
+            display: block;
+            margin-top: 5px;
+            padding: 10px;
+            width: 247px;
+            height: 53.35px;
+            background: rgb(59 108 211);
+            box-shadow: inset 10px 10px 7px rgb(23 44 91 / 51%);
+            border: none;
+            border-radius: 20px;
+            font-size: 2.7rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            left: calc(50% - 118px);
+            line-height: 37px;
+        }
+
+.main-img {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+    .main-img img {
+        margin-top: 5px;
+        line-height: 37px;
+        width: 383.83px;
+        height: 286px;
+        margin-bottom: 50px;
+    }
+
+
+.topnav {
+    overflow: hidden;
+    text-align: center;
+    align-self: center;
+}
+
+    .topnav a {
+        float: left;
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        height: 150px;
+    }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #4879da;
+            color: white;
+        }
+
+/*Register page*/
+
+
+.register {
+    margin-top: 5px;
+    background: rgb(0 83 255 / 12%);
+    box-shadow: inset 5.7676px -5.7676px 5.7676px rgb(42 39 39 / 43%), inset -5.7676px 5.7676px 5.7676px rgb(163 200 255 / 43%);
+    backdrop-filter: blur(159.762px);
+    border-radius: 6.10543px;
+    margin-left: calc(50% - 45%);
+    line-height: 37px;
+    width: calc(90% - 10px);
+    height: 830px;
+    margin-bottom: 50px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+    .register p {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 31px;
+        display: flex;
+        color: var(--just-black);
+        margin-top: 35px;
+        text-shadow: #949494c7 0.1em 0.1em 0.2em
+    }
+
+    .register input {
+        font-size: 15.2636px;
+        font-weight: 400;
+        line-height: 21px;
+        display: flex;
+        color: var(--just-black);
+        border: none;
+        margin-top: 15px;
+        background-color: rgb(0 0 0 / 0%);
+        width: 250px;
+        box-shadow: 0px 1px #fff;
+    }
+
+    .register select {
+        font-size: 15.2636px;
+        font-weight: 400;
+        line-height: 21px;
+        display: flex;
+        color: var(--just-black);
+        border: none;
+        margin-top: 15px;
+        background-color: rgb(0 0 0 / 0%);
+        width: 250px;
+        box-shadow: 0px 1px #fff;
+    }
+
+.gracias {
+    margin-top: 5px;
+    background: rgb(0 83 255 / 12%);
+    box-shadow: inset 5.7676px -5.7676px 5.7676px rgb(42 39 39 / 43%), inset -5.7676px 5.7676px 5.7676px rgb(163 200 255 / 43%);
+    backdrop-filter: blur(159.762px);
+    border-radius: 6.10543px;
+    line-height: 37px;
+    width: 383.83px;
+    height: 320px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-left: calc(50% - 193px);
+    align-items: center;
+}
+
+    .gracias p {
+        font-size: 20px;
+        margin-top: 40px;
+    }

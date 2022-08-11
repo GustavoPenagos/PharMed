@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Register Page";
+}
+<section class="main-content">
+   <div class="text">
+        <h2>Se parte de una nueva experiencia<br /> academica y unete a nuestro equipo</h2>
+            <div class="main-img">
+                    <img src="~/images/rafiki-pagge2.svg" class="img"/>
+            </div>
+            <div class="register">
+                <p>Nombres</p>
+                    <input type="text" placeholder="La*** **** ****"/>
+                <p>Fecha de nacimiento</p>
+                    <input type="date"/>
+                <p>Ocupación</p>
+                    <select>
+                        <option>Medico</option>
+                        <option>Estudiante</option>
+                    </select>
+                <p>Carrera</p>
+                    <select>
+                        <option>Ingenieria</option>
+                        <option>Medicina</option>
+                    </select>
+                <p>E-Mail</p>
+                    <input type="email" placeholder="****.com" />
+                <p>Contraseña</p>
+                    <input type="password" placeholder="*******"/>
+                <p>Confirma tu contraseña</p>
+                    <input type="password" placeholder="*******"/><br/>
+                <a href="@Url.Action("Gracias","Home")" class="button-regt">Quiero La Beta</a><br />
+            </div>
+   </div>
+   
+</section>
